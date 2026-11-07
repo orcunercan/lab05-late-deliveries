@@ -1,0 +1,9 @@
+variant,roc_auc,roc_auc_std,lowest_cv_cost
+1 hour as a number,0.795,0.034,4031
+2 hour as a category,0.812,0.034,4096
+3 rush only (chosen),0.816,0.034,4042
+4 rush + hour as a number,0.815,0.035,4023
+5 rush + hour as a category,0.812,0.034,4089
+6 rush + distance and size segments,0.816,0.033,4032
+7 segments replace raw distance and items,0.798,0.044,4220
+LEAK: chosen + customer_rating,0.92,0.014,3035
