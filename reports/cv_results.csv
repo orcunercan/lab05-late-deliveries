@@ -1,0 +1,5 @@
+model,accuracy_mean,accuracy_std,precision_mean,precision_std,recall_mean,recall_std,f1_mean,f1_std,roc_auc_mean,roc_auc_std,best_threshold,lowest_cv_cost
+dummy_baseline,0.844,0.001,0.0,0.0,0.0,0.0,0.0,0.0,0.5,0.0,0.05,5265
+logreg,0.872,0.01,0.715,0.081,0.29,0.045,0.413,0.058,0.816,0.034,0.3,4042
+logreg_balanced,0.752,0.013,0.355,0.021,0.724,0.051,0.476,0.029,0.816,0.035,0.7,4044
+random_forest_balanced,0.782,0.014,0.376,0.028,0.598,0.051,0.461,0.034,0.795,0.037,0.6,4180
